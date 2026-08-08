@@ -3,24 +3,136 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de Privacidade e Termos de Uso do aplicativo Meu Financeiro.">
-  <title>Meu Financeiro — Documentos legais</title>
+  <meta name="description" content="Meu Financeiro: controle receitas, despesas, cartões, metas e orçamentos com dados armazenados no seu aparelho.">
+  <meta name="theme-color" content="#0f7a3f">
+  <title>Meu Financeiro — Seu dinheiro, sob seu controle</title>
   <link rel="icon" type="image/png" href="./logo.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-  <header><div class="header-inner"><a class="brand" href="./"><img src="./logo.png" alt="" width="44" height="44"><span>Meu Financeiro</span></a><nav aria-label="Documentos"><a href="./privacidade/">Privacidade</a><a href="./termos/">Termos de Uso</a></nav></div></header>
-  <main>
-    <span class="eyebrow">Documentos legais</span>
-    <h1>Transparência e privacidade em primeiro lugar.</h1>
-    <p>Consulte como o Meu Financeiro protege os dados armazenados no dispositivo e conheça as condições de uso do aplicativo.</p>
-    <div class="cards">
-      <a class="card" href="./privacidade/"><strong>Política de Privacidade</strong><span>Armazenamento local, segurança, arquivos e assinatura.</span></a>
-      <a class="card" href="./termos/"><strong>Termos de Uso</strong><span>Funcionamento, planos, responsabilidades e cancelamento.</span></a>
+<body class="home-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Meu Financeiro — página inicial">
+        <img src="./logo.png" alt="Logo Meu Financeiro" width="44" height="44">
+        <span>Meu Financeiro</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="./privacidade/">Privacidade</a>
+        <a href="./termos/">Termos de Uso</a>
+      </nav>
     </div>
-    <h2>Contato</h2>
-    <p>Dúvidas ou solicitações: <a href="mailto:dev.contato.apps@gmail.com">dev.contato.apps@gmail.com</a></p>
+  </header>
+
+  <main class="home-main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow">Seu dinheiro, sob seu controle</span>
+        <h1 id="hero-title">Organize hoje.<br><span>Respire melhor amanhã.</span></h1>
+        <p class="hero-text">Receitas, despesas, cartões, faturas, metas e orçamentos reunidos em um aplicativo simples, privado e feito para a sua rotina.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#recursos">Conhecer os recursos <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="mailto:dev.contato.apps@gmail.com">Falar com o suporte</a>
+        </div>
+        <div class="store-note"><span class="status-dot" aria-hidden="true"></span> Em breve na Google Play</div>
+      </div>
+      <div class="hero-visual" aria-label="Tela inicial do aplicativo Meu Financeiro">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="phone-frame phone-main">
+          <img src="./assets/tela-inicio.jpg" alt="Painel inicial do Meu Financeiro com saldo, previsão e saúde financeira">
+        </div>
+        <div class="floating-card floating-safe"><span>✓</span><strong>Dados locais</strong><small>Suas finanças ficam no aparelho</small></div>
+        <div class="floating-card floating-plan"><span>↗</span><strong>Planeje melhor</strong><small>Metas e orçamentos em um só lugar</small></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Diferenciais do aplicativo">
+      <article><span class="trust-icon">⌂</span><div><strong>Privacidade por padrão</strong><small>Dados financeiros armazenados localmente</small></div></article>
+      <article><span class="trust-icon">◇</span><div><strong>Sem conta online</strong><small>Comece sem cadastro em servidor</small></div></article>
+      <article><span class="trust-icon">↥</span><div><strong>Backup protegido</strong><small>Arquivo criptografado sob seu controle</small></div></article>
+    </section>
+
+    <section class="section-heading" id="recursos">
+      <span class="eyebrow">Tudo no lugar certo</span>
+      <h2>Uma visão completa da sua vida financeira.</h2>
+      <p>Do lançamento rápido ao relatório detalhado, cada recurso ajuda você a entender o que entra, o que sai e o que vem pela frente.</p>
+    </section>
+
+    <section class="feature-grid" aria-label="Principais recursos">
+      <article class="feature-card feature-large green-card">
+        <span class="feature-number">01</span>
+        <div class="feature-copy"><span class="feature-tag">Organização</span><h3>Registre sem complicação</h3><p>Cadastre receitas e despesas, marque pagamentos, use categorias e tags e acompanhe todos os lançamentos por período.</p></div>
+        <img src="./assets/tela-lancamentos.jpg" alt="Lista de lançamentos financeiros no aplicativo">
+      </article>
+      <article class="feature-card soft-card">
+        <span class="feature-number">02</span>
+        <span class="feature-tag">Cartões</span>
+        <h3>Faturas e limites mais claros</h3>
+        <p>Acompanhe despesas por cartão, vencimentos, fechamento da fatura e limite disponível.</p>
+        <div class="mini-card"><span>Limite disponível</span><strong>Atualizado após o pagamento</strong></div>
+      </article>
+      <article class="feature-card dark-card">
+        <span class="feature-number">03</span>
+        <span class="feature-tag">Planejamento</span>
+        <h3>Transforme planos em progresso</h3>
+        <p>Crie metas pessoais e orçamentos mensais para acompanhar prioridades sem perder o contexto.</p>
+        <div class="progress-demo"><span><i></i></span><small>Progresso visível, decisão mais simples.</small></div>
+      </article>
+      <article class="feature-card feature-wide report-card">
+        <div class="feature-copy"><span class="feature-number">04</span><span class="feature-tag">Relatórios</span><h3>Entenda seus números de verdade</h3><p>Analise receitas, despesas, categorias, tags, cartões, metas e orçamentos. Exporte relatórios quando precisar.</p></div>
+        <img src="./assets/tela-relatorios.jpg" alt="Relatórios financeiros do Meu Financeiro">
+      </article>
+    </section>
+
+    <section class="screens-section" aria-labelledby="screens-title">
+      <div class="section-heading compact">
+        <span class="eyebrow">Veja por dentro</span>
+        <h2 id="screens-title">Bonito, direto e feito para usar todos os dias.</h2>
+      </div>
+      <div class="screens-track">
+        <figure><img src="./assets/tela-inicio.jpg" alt="Tela inicial do Meu Financeiro"><figcaption><strong>Visão geral</strong><span>Seu mês em um olhar</span></figcaption></figure>
+        <figure><img src="./assets/tela-lancamentos.jpg" alt="Tela de lançamentos do Meu Financeiro"><figcaption><strong>Lançamentos</strong><span>Receitas e despesas organizadas</span></figcaption></figure>
+        <figure><img src="./assets/tela-contas.jpg" alt="Tela de contas e carteiras do Meu Financeiro"><figcaption><strong>Contas</strong><span>Saldos sempre acessíveis</span></figcaption></figure>
+        <figure><img src="./assets/tela-planejamento.jpg" alt="Tela de planejamento do Meu Financeiro"><figcaption><strong>Planejamento</strong><span>Orçamentos e metas pessoais</span></figcaption></figure>
+        <figure><img src="./assets/tela-relatorios.jpg" alt="Tela de relatórios do Meu Financeiro"><figcaption><strong>Relatórios</strong><span>Informação para decidir melhor</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="security-section" id="seguranca">
+      <div class="security-visual">
+        <div class="shield" aria-hidden="true"><span>✓</span></div>
+        <div class="security-pill pill-one">PIN local</div>
+        <div class="security-pill pill-two">Biometria</div>
+        <div class="security-pill pill-three">AES-256-GCM</div>
+      </div>
+      <div class="security-copy">
+        <span class="eyebrow">Privacidade de verdade</span>
+        <h2>Suas finanças pertencem a você.</h2>
+        <p>O Meu Financeiro não exige conta online nem envia seus dados financeiros para servidor próprio. O conteúdo fica armazenado no aparelho, protegido por PIN ou biometria, com opção de backup criptografado.</p>
+        <a class="text-link" href="./privacidade/">Leia a Política de Privacidade <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="developer-section">
+      <div>
+        <span class="eyebrow eyebrow-light">Quem desenvolve</span>
+        <h2>Meu Financeiro é desenvolvido pela <span>Atende Cloud.</span></h2>
+      </div>
+      <div class="developer-copy">
+        <p>Tecnologia pensada para tornar o controle financeiro pessoal mais claro, seguro e acessível — com atenção aos detalhes e evolução contínua.</p>
+        <a class="button button-light" href="mailto:dev.contato.apps@gmail.com">dev.contato.apps@gmail.com</a>
+      </div>
+    </section>
   </main>
-  <footer>Meu Financeiro · Atualizado em 7 de agosto de 2026</footer>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><img src="./logo.png" alt="" width="44" height="44"><div><strong>Meu Financeiro</strong><span>Desenvolvido pela Atende Cloud</span></div></div>
+      <div class="footer-links"><a href="./privacidade/">Política de Privacidade</a><a href="./termos/">Termos de Uso</a><a href="mailto:dev.contato.apps@gmail.com">Contato</a></div>
+    </div>
+    <div class="footer-bottom">© 2026 Meu Financeiro · Seus dados financeiros ficam com você.</div>
+  </footer>
 </body>
 </html>
