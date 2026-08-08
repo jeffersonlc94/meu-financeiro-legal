@@ -198,7 +198,7 @@ footer { padding: 0 0 38px; color: var(--muted); text-align: center; font-size: 
 .feature-card p { max-width: 520px; color: inherit; opacity: .75; }
 .green-card { color: #fff; background: linear-gradient(150deg,#108044 0%,#07582c 100%); border-color: transparent; }
 .green-card .feature-copy { position: relative; z-index: 2; }
-.green-card img { position: absolute; right: -45px; bottom: -60px; width: 470px; border: 9px solid rgba(255,255,255,.9); border-radius: 36px; box-shadow: 0 30px 60px rgba(0,0,0,.24); transform: rotate(-3deg); }
+.green-card img { position: absolute; top: 300px; right: -45px; width: 470px; border: 9px solid rgba(255,255,255,.9); border-radius: 36px; box-shadow: 0 30px 60px rgba(0,0,0,.24); transform: rotate(-3deg); }
 .soft-card { background: linear-gradient(145deg,#fbf7e8,#fffdf7); }
 .mini-card { position: absolute; right: 32px; bottom: 32px; left: 32px; padding: 21px; border: 1px solid #eadfaa; border-radius: 18px; background: rgba(255,255,255,.72); }
 .mini-card span,.mini-card strong { display: block; }
@@ -267,7 +267,7 @@ footer { padding: 0 0 38px; color: var(--muted); text-align: center; font-size: 
   .orbit-one { left: -35%; }.orbit-two { left: -8%; }
   .trust-strip { width: calc(100% - 28px); margin-top: 0; margin-bottom: 75px; }
   .section-heading { width: calc(100% - 32px); }.section-heading h2 { font-size: 2.35rem; }
-  .feature-grid { width: calc(100% - 28px); gap: 14px; margin-bottom: 80px; }.feature-card { min-height: 400px; padding: 27px; border-radius: 24px; }.feature-large { min-height: 650px; }.green-card img { width: 360px; right: -50px; }.feature-wide { min-height: auto; }.report-card { gap: 22px; }
+  .feature-grid { width: calc(100% - 28px); gap: 14px; margin-bottom: 80px; }.feature-card { min-height: 400px; padding: 27px; border-radius: 24px; }.feature-large { min-height: 650px; }.green-card img { top: 310px; width: 360px; right: -50px; }.feature-wide { min-height: auto; }.report-card { gap: 22px; }
   .screens-section { padding: 80px 0; }.screens-track { max-width: calc(100% - 20px); grid-template-columns: repeat(5,235px); }.screens-track img { width: 235px; height: 500px; }
   .security-section { gap: 25px; width: calc(100% - 32px); padding: 90px 0; }.security-visual { min-height: 350px; }.shield { width: 205px; height: 235px; }.security-pill { font-size: .8rem; }
   .developer-section { width: calc(100% - 28px); margin-bottom: 60px; padding: 35px 27px; border-radius: 25px; }
